@@ -3,7 +3,7 @@ import Input from "../../UI/Input";
 
 const MealItemForm = (props) => {
   const inputConfig = {
-    id: "amount",
+    id: "amount_" + props.id,
     type: "number",
     min: "1",
     max: "5",
